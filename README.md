@@ -1,6 +1,6 @@
 # Roblox Obby Demo
 
-Minimal code for a Roblox obby.
+Minimal code for a Roblox obby. For the offical Roblox documentation see https://create.roblox.com/docs/platform
 
 ## Set up the leaderboard
 
