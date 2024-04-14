@@ -13,7 +13,7 @@ Minimal code for a Roblox obby. For the offical Roblox documentation see https:/
 ## Set up the checkpoints
 
 - Add a new part next to the `SpawnLocation` and rename it Checkpoint1
-- Add a `Script` and paste in the code from `Checkpoint.lua`
+- Add a `Script` to the Checkpoint1 part and paste in the code from `Checkpoint.lua`
 - Run the game again. When you jump onto `Checkpoint1` you will respawn there
 - Add more parts and name them in the sequence they are reached e.g `Checkpoint1`, `Checkpoint2` ...
 
