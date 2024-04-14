@@ -8,7 +8,7 @@ Minimal code for a Roblox obby. For the offical Roblox documentation see https:/
 - Go to the Workspace, find `Baseplate` and delete it
 - Create a `Script` under `ServerScriptService` and rename it `Leaderboard`
 - Paste in the code from `Leaderboard.lua`
-- Run the game and jump off hte edge a few times. You will respawn on top of `SpawnLocation`
+- Run the game and jump off the edge a few times. You will respawn on top of `SpawnLocation`
 
 ## Set up the checkpoints
 
@@ -21,7 +21,7 @@ In every Checkpoint change the value of `local CHECKPOINT_VALUE = 1` to correspo
 number. For example, `Checkpoint24` will have `local CHECKPOINT_VALUE = 24`.
 
 You will also need to update `Leaderboard` for every checkpoint by adding more `elseif` statements
-to checkout which checkpoint you have reached. 
+to evaluate which checkpoint you have reached. 
 You will duplicate:
 ```lua
 elseif progressStat.Value ==1 then
