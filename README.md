@@ -17,7 +17,7 @@ Minimal code for a Roblox obby. For the offical Roblox documentation see https:/
 - Run the game again. When you jump onto `Checkpoint1` you will respawn there
 - Add more parts and name them in the sequence they are reached e.g `Checkpoint1`, `Checkpoint2` ...
 
-In every Checkpoint change the value of `local CHECKPOINT_VALUE = 1` to correspond to the checkpoint
+In every Checkpoint script change the value of `local CHECKPOINT_VALUE = 1` to correspond to the checkpoint
 number. For example, `Checkpoint24` will have `local CHECKPOINT_VALUE = 24`.
 
 You will also need to update `Leaderboard` for every checkpoint by adding more `elseif` statements
